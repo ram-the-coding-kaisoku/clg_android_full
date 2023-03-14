@@ -20,7 +20,7 @@ public class SecondActivity extends AppCompatActivity {
         //Getting the Intent
         Intent i = getIntent();
         //Getting the Values from First Activity using the Intentreceived
-                name=i.getStringExtra("name_key");
+        name=i.getStringExtra("name_key");
         reg=i.getStringExtra("reg_key");
         dept=i.getStringExtra("dept_key");
         //Setting the Values to Intent
